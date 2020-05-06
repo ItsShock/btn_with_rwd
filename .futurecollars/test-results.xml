@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="0" time="2.791">
+  <testsuite name="Zadanie" errors="0" failures="0" skipped="0" timestamp="2020-03-09T17:40:41" time="2.252" tests="5">
+    <testcase classname="Zadanie" name="Wyświetla nawigację z odpowiednio ustawionym stylem" time="0.011">
+    </testcase>
+    <testcase classname="Zadanie" name="Wyświetla link z nazwą firmy" time="0.004">
+    </testcase>
+    <testcase classname="Zadanie" name="Wyświetla div z linkami dla dużych rozdzielczości" time="0.003">
+    </testcase>
+    <testcase classname="Zadanie" name="Ukrywa div z linkami dla małych rozdzielczości (mobile menu)" time="0.005">
+    </testcase>
+    <testcase classname="Zadanie" name="Wyświetla button z obrazkiem dla małych rozdzielczości (mobile menu)" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>

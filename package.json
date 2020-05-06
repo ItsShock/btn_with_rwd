@@ -1,0 +1,58 @@
+{
+  "name": "radek_test",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "differencify": "^1.5.4",
+    "html-loader": "^0.5.5",
+    "install": "^0.13.0",
+    "jest": "^25.1.0",
+    "jest-junit": "^10.0.0",
+    "jest-puppeteer": "^4.4.0",
+    "jest-watch-master": "^1.0.0",
+    "live-server": "^1.2.1",
+    "npm": "^6.13.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "test": "concurrently \"jest --watchAll\" \"live-server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.fc.test.lncd.pl/root/radek_test.git"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "html",
+      "css",
+      "scss"
+    ],
+    "collectCoverageFrom": [
+      "./**/*.{js,html,css,scss}"
+    ],
+    "reporters": [
+      "default",
+      "jest-junit"
+    ],
+    "watchPlugins": [
+      "jest-watch-master"
+    ],
+    "preset": "jest-puppeteer"
+  },
+  "jest-junit": {
+    "outputDirectory": ".futurecollars",
+    "outputName": "test-results.xml",
+    "classNameTemplate": "{classname}",
+    "titleTemplate": "{title}"
+  },
+  "author": "",
+  "license": "ISC"
+}
