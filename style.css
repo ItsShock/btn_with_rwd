@@ -1,0 +1,35 @@
+div
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+button
+{
+    display: none;
+}
+
+@media screen and (max-width: 1024px)
+{
+    div
+    {
+        display: none;
+    }
+
+    button
+    {
+        width: 200px;
+        height: 200px;
+        display: flex;
+    }
+
+
+    /* .img{
+    display: block;
+    background-image: url(toggler.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 20px;
+    } */
+}
